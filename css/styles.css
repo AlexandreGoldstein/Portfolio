@@ -1403,10 +1403,6 @@ figure {
     margin-right: 0;
 }
 
-figure img+figcaption {
-    margin-top: var(--vspace-1);
-}
-
 figcaption {
     /* font-style: italic; */
     font-size    : var(--text-sm);
