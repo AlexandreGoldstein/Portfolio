@@ -3579,6 +3579,7 @@ td:last-child {
     right   : calc(var(--gutter) + var(--vspace-1_25));
     
 }
+
 .s-intro__social li {
     padding-right: 0;
     margin-right : 0;
