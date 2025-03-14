@@ -1753,7 +1753,6 @@ ul,
 ol,
 dl,
 form,
-img,
 .video-container,
 .ss-custom-select {
     margin-bottom: var(--vspace-1);
@@ -3097,8 +3096,6 @@ td:last-child {
 .s-header__block {
     z-index : 101;
     position: relative;
-    width: 100%;
-    height: auto;
     overflow: hidden;
 }
 
@@ -3142,6 +3139,11 @@ td:last-child {
     padding: 0;
     outline: 0;
     border : none;
+}
+
+.s-header__folio {
+    width: 100%;
+    height: auto;
 }
 
 .s-header__logo img {
