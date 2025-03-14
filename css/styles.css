@@ -3097,6 +3097,34 @@ td:last-child {
 .s-header__block {
     z-index : 101;
     position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+    .lg\:my-24 {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+}
+@media (min-width: 968px) {
+    .container {
+        max-width: 968px;
+    }
 }
 
 /* --------------------------------------------------------------------
