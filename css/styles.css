@@ -3068,7 +3068,7 @@ td:last-child {
 .s-header.sticky {
     opacity         : 0;
     visibility      : hidden;
-    background-color: var(--color-3-dark);
+    background-color: var(--color-3);
     box-shadow      : var(--box-shadow);
     border          : none;
     border-bottom   : 1px solid rgba(255, 255, 255, 0.03);
@@ -3455,7 +3455,6 @@ td:last-child {
     z-index       : 2;
     align-items   : flex-end;
     height        : 100%;
-    left          : 5%;
     padding-top   : var(--content-padding-top);
     padding-bottom: var(--content-padding-bottom);
     position      : relative;
@@ -3580,10 +3579,12 @@ td:last-child {
  * -------------------------------------------------------------------- */
 .s-intro__social {
     z-index : 2;
-    display : block;
+    display : inline-flex;
     position: absolute;
     bottom  : calc(var(--vspace-2) + var(--vspace-1_75) + 12rem);
-    left   : 2%;
+    top     : -5%;
+    gap     : 2rem;
+    left    : 6%;
 }
 
 .s-intro__social li {
@@ -3600,7 +3601,7 @@ td:last-child {
     z-index      : 2;
     position     : absolute;
     bottom       : var(--vspace-2);
-    left         : 2%;
+    right        : calc(var(--gutter) + var(--vspace-0_75));
 }
 
 .s-intro__scroll-down::before {
@@ -3608,7 +3609,7 @@ td:last-child {
     display         : block;
     height          : var(--line-length);
     width           : 1px;
-    background-color: rgba(5, 5, 5, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     position        : absolute;
     top             : calc(var(--line-length) * -1 - var(--vspace-1));
     left            : 50%;
