@@ -96,7 +96,7 @@
    */
     --color-1: hsla(12, 75%, 45%, 1);
     --color-2: hsla(96, 10%, 19%, 1);
-    --color-3: hsla(0, 0%, 10%, 1);
+    --color-3: hsla(0, 0%, 0%, 1);
 
   /* theme color variations
    */
@@ -2203,6 +2203,23 @@ button.btn--pill {
     padding-right: 3.2rem !important;
     border-radius: 1000px !important;
 }
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+} 
+   
+.btn:hover .btn-slide-show-text1 {
+margin-left: 65px;
+} 
+   
+.btn-fill-center {
+text-align: center;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: 700;
+transition: 0.5s ease-in;
+} 
 
 
 /* ===================================================================
