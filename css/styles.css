@@ -2203,18 +2203,21 @@ button.btn--pill {
     padding-right: 3.2rem !important;
     border-radius: 1000px !important;
 }
-
-   
-.btn:hover .btn-slide-show-text1 {
-    margin-left: 65px;
-} 
    
 .btn-fill-center {
     text-align: center;
     cursor: pointer;
     font-weight: 700;
+    background-color: black;
+    color      : white;
     transition: 0.5s ease-in;
 } 
+
+#hello {
+    width: 10rem;
+    height: auto;
+    text-align: center;
+}
 
 
 /* ===================================================================
@@ -4031,8 +4034,9 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .folio-entries .entry {
     text-align: center;
-    flex      : none;
-    width     : 50%;
+    flex: none;
+    width: 50%;
+    margin: auto;
     margin    : 0;
     padding   : 0;
     overflow  : hidden;
@@ -4306,7 +4310,7 @@ td:last-child {
 }
 
 .s-footer__about>* {
-    width: min(100%, 560px);
+    width: min(100%, 1200px);
 }
 
 .s-footer__buttons {
