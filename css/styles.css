@@ -4033,7 +4033,6 @@ td:last-child {
     flex: none;
     width: 25%;
     margin: auto auto;
-    margin    : 0;
     padding   : 0;
     overflow  : hidden;
     position  : relative;
