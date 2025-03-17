@@ -2203,18 +2203,9 @@ button.btn--pill {
     padding-right: 3.2rem !important;
     border-radius: 1000px !important;
 }
-   
-.btn-fill-center {
-    text-align: center;
-    cursor: pointer;
-    font-weight: 700;
-    background-color: black;
-    color      : white;
-    transition: 0.5s ease-in;
-} 
 
 #hello {
-    width: 10rem;
+    width: 60rem;
     height: auto;
     text-align: center;
 }
@@ -3456,7 +3447,7 @@ td:last-child {
     --content-padding-bottom: 8rem;
     --content-min-height    : calc(var(--vspace-1) * 27);
     z-index                 : 2;
-    background-color        : var(--color-gray-10);
+    background-color        : white;
     width                   : 100%;
     height                  : max(var(--content-min-height), 100vh);
     overflow                : hidden;
@@ -3597,9 +3588,9 @@ td:last-child {
     display : inline-flex;
     position: absolute;
     bottom  : calc(var(--vspace-2) + var(--vspace-1_75) + 12rem);
-    top     : -5%;
+    top     : -25%;
     gap     : 2rem;
-    left    : 6%;
+    left    : 36%;
 }
 
 .s-intro__social li {
@@ -3938,6 +3929,7 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-about {
+    background-color: var(--color-gray-10);
     padding-top: var(--vspace-7);
     color      : var(--color-3);
 }
