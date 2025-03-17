@@ -4030,7 +4030,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .folio-entries .entry {
     text-align: center;
-    flex: none;
+    flex: 1 0 25%;
     width: 25%;
     margin: auto auto;
     padding   : 0;
