@@ -2188,14 +2188,14 @@ button.btn--stroke {
     color      : var(--color-btn-stroke-text);
 }
 
-.btn--stroke:focus,
+/*.btn--stroke:focus,
 button.btn--stroke:focus,
 .btn--stroke:hover,
 button.btn--stroke:hover {
     background: var(--color-btn-stroke-hover) !important;
     border    : 2px solid var(--color-btn-stroke-hover);
     color     : var(--color-btn-stroke-hover-text);
-}
+}HERE 2*/
 
 .btn--pill,
 button.btn--pill {
@@ -2204,21 +2204,16 @@ button.btn--pill {
     border-radius: 1000px !important;
 }
 
-.btn {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-} 
    
 .btn:hover .btn-slide-show-text1 {
-margin-left: 65px;
+    margin-left: 65px;
 } 
    
 .btn-fill-center {
-text-align: center;
-cursor: pointer;
-text-transform: uppercase;
-font-weight: 700;
-transition: 0.5s ease-in;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s ease-in;
 } 
 
 
