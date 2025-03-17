@@ -4375,6 +4375,40 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## Technos / Icon Wall
+ * ------------------------------------------------------------------- */
+.icon-wall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icon-box {
+    width: 20%; /* This gives space for 5 items per row */
+    position: relative;
+    margin-bottom: 20px; /* Space below each icon-box for the caption to fit when hovered */
+}
+
+.icon-box img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s; /* This will animate the caption appearing */
+}
+
+.icon-box:hover .caption {
+    opacity: 1;
+}
+
+/* ------------------------------------------------------------------- 
  * ## go top
  * ------------------------------------------------------------------- */
 .ss-go-top {
