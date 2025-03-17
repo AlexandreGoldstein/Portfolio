@@ -2786,20 +2786,13 @@ td:last-child {
     align-items: center;
 }
 
-.social-list a:focus svg path,
-.social-list a:focus svg circle,
-.social-list a:hover svg path,
-.social-list a:hover svg circle {
+.social-list a:focus img.icon,
+.social-list a:hover img.icon {
     fill: var(--color-white);
 }
 
-.social-list svg {
-    height: var(--vspace-0_875);
-    width : var(--vspace-0_875);
-}
-
-.social-list svg path,
-.social-list svg circle {
+.social-list img.icon,
+.social-list img.icon {
     fill      : rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
 }
