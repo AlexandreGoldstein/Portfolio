@@ -4384,14 +4384,15 @@ td:last-child {
 }
 
 .icon-box {
-    width: 20%; /* This gives space for 5 items per row */
+    width: 20%;
     position: relative;
-    margin-bottom: 20px; /* Space below each icon-box for the caption to fit when hovered */
+    margin-bottom: 20px;
 }
 
 .icon-box img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .caption {
@@ -4400,8 +4401,11 @@ td:last-child {
     left: 0;
     width: 100%;
     text-align: center;
+    font-weight: 500;
+    margin-bottom: var(--vspace-0_625);
+    padding-left: 0;
     opacity: 0;
-    transition: opacity 0.5s; /* This will animate the caption appearing */
+    transition: opacity 0.5s;
 }
 
 .icon-box:hover .caption {
