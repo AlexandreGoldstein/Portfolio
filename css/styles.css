@@ -2760,12 +2760,12 @@ td:last-child {
 }
 
 .social-list li {
-    padding-left: 0;
-    margin-right: 0.8rem;
+    padding-right: 0;
+    margin-left: 0.8rem;
 }
 
 .social-list li:last-child {
-    margin-right: 0;
+    margin-left: 0;
 }
 
 .social-list li a img.icon {
@@ -3582,13 +3582,12 @@ td:last-child {
     display : block;
     position: absolute;
     bottom  : calc(var(--vspace-2) + var(--vspace-1_75) + 12rem);
-    right   : calc(var(--gutter) + var(--vspace-1_25));
-    
+    left   : calc(var(--gutter) + var(--vspace-1_25));
 }
 
 .s-intro__social li {
-    padding-right: 0;
-    margin-right : 0;
+    padding-left: 0;
+    margin-left : 0;
     margin-bottom: var(--vspace-0_625);
 }
 
@@ -3600,7 +3599,7 @@ td:last-child {
     z-index      : 2;
     position     : absolute;
     bottom       : var(--vspace-2);
-    right        : calc(var(--gutter) + var(--vspace-0_75));
+    left        : calc(var(--gutter) + var(--vspace-0_75));
 }
 
 .s-intro__scroll-down::before {
