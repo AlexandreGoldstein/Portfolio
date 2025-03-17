@@ -2768,6 +2768,20 @@ td:last-child {
     margin-right: 0;
 }
 
+.social-list li a img.icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+    width: 24px;
+    height: 24px;
+}
+  
+.social-list li a:hover img.icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
 .social-list a {
     display    : flex;
     align-items: center;
