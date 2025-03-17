@@ -2205,7 +2205,7 @@ button.btn--pill {
 }
 
 #hello {
-    width: 60rem;
+    width: 45rem;
     height: auto;
     text-align: center;
 }
@@ -3806,7 +3806,7 @@ td:last-child {
     }
 
     .s-intro__content-title {
-        font-size: clamp(4.2rem, 8.2vw, 8.8rem);
+        font-size: clamp(4.2rem, 8.2vw, 7.5rem);
         color    : white;
     }
 
