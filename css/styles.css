@@ -3594,7 +3594,7 @@ td:last-child {
     bottom  : calc(var(--vspace-2) + var(--vspace-1_75) + 12rem);
     top     : -25%;
     gap     : 2rem;
-    left    : 36%;
+    left    : 33%;
 }
 
 .s-intro__social li {
