@@ -2135,9 +2135,7 @@ input[type=button]:hover {
 
 /*Test*/
 .row_pen {
-    position:absolute;
-    bottom: 15%;
-    right: 5px;
+    display:flex;
 }
 .button--pen{
     --main_color : #4d4d4d ;
