@@ -2192,8 +2192,8 @@ button.btn--stroke {
     color      : var(--color-btn-stroke-text);
 }
 
-.five {
-    background: linear-gradient(to right, #020202, #5413a9, #a210e1, #557fd3);
+.effect {
+    background: linear-gradient(to right, #a210e1, #557fd3, #434343, #b7b3bb);
     background-size: 350% 100%;
     transition: all .4s ease-in-out;
     font-weight: 600;
@@ -2201,17 +2201,16 @@ button.btn--stroke {
     color: white;
     border: none;
     letter-spacing: 2px;
-    padding: 1em 2em;
     cursor: pointer;
     transition: all 500ms ease;
     box-shadow: 0 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0 2px 4px -2px hsla(0, 0%, 0%, 0.1);
 }
 
-.five:hover {
+.btn_intro:hover {
     background-position: 100% 0;
 }
 
-.test:hover {
+.btn_intro:hover {
     animation-name: flow;
     animation-duration: 500ms;
     animation-timing-function: linear;
