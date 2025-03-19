@@ -2192,14 +2192,38 @@ button.btn--stroke {
     color      : var(--color-btn-stroke-text);
 }
 
-/*.btn--stroke:focus,
-button.btn--stroke:focus,
-.btn--stroke:hover,
-button.btn--stroke:hover {
-    background: var(--color-btn-stroke-hover) !important;
-    border    : 2px solid var(--color-btn-stroke-hover);
-    color     : var(--color-btn-stroke-hover-text);
-}HERE 2*/
+.five {
+    background: linear-gradient(to right, #020202, #5413a9, #a210e1, #557fd3);
+    background-size: 350% 100%;
+    transition: all .4s ease-in-out;
+    font-weight: 600;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 500ms ease;
+    box-shadow: 0 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0 2px 4px -2px hsla(0, 0%, 0%, 0.1);
+}
+
+.five:hover {
+    background-position: 100% 0;
+}
+
+.test:hover {
+    animation-name: flow;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+@keyframes flow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
 
 .btn--pill,
 button.btn--pill {
