@@ -2134,9 +2134,10 @@ input[type=button]:hover {
 }
 
 /*Test*/
-.row-pen {
+.row_pen {
     display: inline-flex;
     gap: 5%;
+    width: min(92%, var(--width-grid-max));
     justify-content: space-around;
 }
 .button--pen{
@@ -2603,7 +2604,7 @@ button.btn--stroke {
 }
 
 .effect_cv {
-    background-color: linear-gradient(to right, #5690b3, #dfbd14, #434343, #b7b3bb) !important;
+    background: linear-gradient(to right, #5690b3, #dfbd14, #434343, #b7b3bb) !important;
 }
 
 .btn_intro:hover {
