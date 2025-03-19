@@ -2134,6 +2134,11 @@ input[type=button]:hover {
 }
 
 /*Test*/
+.row-pen {
+    display: inline-flex;
+    gap: 5%;
+    justify-content: space-around;
+}
 .button--pen{
     --main_color : #4d4d4d ;
     --sub_color1 : #FFF ;
@@ -2148,7 +2153,7 @@ input[type=button]:hover {
     display : flex ;
     justify-content : center ;
     align-items : center ;
-    width : 280px ;
+    width : 350px ;
     height : 80px ;
     box-sizing : border-box ;
     text-decoration : none ;
@@ -2595,6 +2600,10 @@ button.btn--stroke {
     cursor: pointer;
     transition: all 500ms ease;
     box-shadow: 0 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0 2px 4px -2px hsla(0, 0%, 0%, 0.1);
+}
+
+.effect_cv {
+    background-color: linear-gradient(to right, #5690b3, #dfbd14, #434343, #b7b3bb) !important;
 }
 
 .btn_intro:hover {
@@ -3980,7 +3989,7 @@ td:last-child {
     z-index                      : 2;
     position                     : absolute;
     bottom                       : var(--content-padding-bottom);
-    left                         : calc(50% + var(--hline-width) / 2);
+    left                         : calc(48% + var(--hline-width) / 2);
 }
 
 .s-intro__btn-download .btn--stroke {
