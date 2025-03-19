@@ -2589,8 +2589,11 @@ button.btn--stroke {
     color      : var(--color-btn-stroke-text);
 }
 
-.effect {
+.effect_left {
     background: linear-gradient(to right, #a210e1, #557fd3, #434343, #b7b3bb);
+}
+
+.effect {
     background-size: 350% 100%;
     transition: all .4s ease-in-out;
     font-weight: 600;
