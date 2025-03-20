@@ -3278,6 +3278,7 @@ td:last-child {
 }
 
 .flex-items__item {
+    width: calc(100% / 2);
     margin-bottom: var(--vspace-1);
 }
 
@@ -4223,7 +4224,6 @@ td:last-child {
 .s-about__list {
     list-style : none;
     font-size  : calc(var(--text-size) * 1.05);
-    width: calc(100% / 3);
     margin-left: 0;
 }
 
@@ -4598,6 +4598,11 @@ td:last-child {
 /* ------------------------------------------------------------------- 
  * ## Technos / Icon Wall
  * ------------------------------------------------------------------- */
+
+ .tech-title {
+    width: min(92%, var(--width-grid-max));
+ }
+ 
 .icon-wall {
     display: flex;
     flex-wrap: wrap;
