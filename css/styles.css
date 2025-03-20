@@ -3267,39 +3267,18 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
- * ## list grid
+ * ## flex List
  * ------------------------------------------------------------------- */
-.grid-list-items {
-    --gap                : calc(var(--gutter) * 2);
+.flex-items {
+    --gap                : calc(var(--gutter) * 4);
     --min-width          : 300px;
-    display              : grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(var(--min-width), 100%), 1fr));
+    display              : flex;
     -moz-column-gap      : var(--gap);
     column-gap           : var(--gap);
 }
 
-.grid-list-items__item {
+.flex-items__item {
     margin-bottom: var(--vspace-1);
-}
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * grid layouts
- * ------------------------------------------------------------------- */
-@media screen and (max-width: 800px) {
-
-    .grid-block,
-    .grid-block.grid-16 {
-        --col: 8;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    .grid-block,
-    .grid-block.grid-16 {
-        --col: 4;
-    }
 }
 
 
@@ -4244,6 +4223,7 @@ td:last-child {
 .s-about__list {
     list-style : none;
     font-size  : calc(var(--text-size) * 1.05);
+    width: calc(100% / 3);
     margin-left: 0;
 }
 
@@ -4621,7 +4601,7 @@ td:last-child {
 .icon-wall {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     column-gap: 10px;
 }
 
@@ -4644,6 +4624,7 @@ td:last-child {
     width: 100%;
     text-align: center;
     font-weight: 200;
+    line-height: 1.5;
     font-size: small;
     opacity: 0;
     transition: opacity 0.5s;
