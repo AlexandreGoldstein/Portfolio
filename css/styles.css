@@ -4228,7 +4228,7 @@ td:last-child {
 }
 
 .l-5 {
-    position : absolute;
+    position : relative;
     left : 5%;
 }
 
@@ -4237,7 +4237,7 @@ td:last-child {
 }
 
 .r-25 {
-    position : absolute;
+    position : relative;
     right : 25%;
 }
 
@@ -4602,7 +4602,7 @@ td:last-child {
  .tech-title {
     width: min(92%, var(--width-grid-max));
  }
- 
+
 .icon-wall {
     display: flex;
     flex-wrap: wrap;
