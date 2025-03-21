@@ -3267,8 +3267,48 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
- * ## flex List
+ * ## Technos / Icon Wall
  * ------------------------------------------------------------------- */
+
+ .tech-title {
+    width: min(92%, var(--width-grid-max));
+ }
+
+.icon-wall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-box {
+    width: 23%;
+    position: relative;
+}
+
+.icon-box img {
+    margin: 0 auto;
+    width: 100%;
+    /*height: max(120px, 100%); HERE */
+    display: block;
+}
+
+.caption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: small;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.icon-box:hover .caption {
+    opacity: 1;
+}
+
 .flex-items {
     flex-basis           : calc(25% - 20px);
     margin-bottom        : 20px;
@@ -3286,16 +3326,27 @@ td:last-child {
     border: 1px solid #000; /* Your border settings */
     padding: 10px; /* Your padding settings */
     margin-bottom: 20px; /* Your margin settings HERE */
+    border-radius: 15px; /* Add border-radius */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    width: 49%; /* Add width property */
+    box-sizing: border-box;
 }
 
 .icon-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between; /* Adjust this to manage the wrapper placements in a row */
     background-color: #557fd3;
+    border-radius: 15px; /* Add border-radius */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3); 
 }
 
 .flex-group-title {
+    font-family: var(--font-1);
     width: 100%;
+    font-size  : calc(var(--text-size) * 0.8);
+    line-height: 1.75;
+    color      : var(--color-gray-15);
 }
 
 .flex-items__item {
@@ -4614,49 +4665,6 @@ td:last-child {
 
 .ss-copyright span:last-child::after {
     display: none;
-}
-
-/* ------------------------------------------------------------------- 
- * ## Technos / Icon Wall
- * ------------------------------------------------------------------- */
-
- .tech-title {
-    width: min(92%, var(--width-grid-max));
- }
-
-.icon-wall {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.icon-box {
-    width: 23%;
-    position: relative;
-}
-
-.icon-box img {
-    margin: 0 auto;
-    width: 100%;
-    /*height: max(120px, 100%); HERE */
-    display: block;
-}
-
-.caption {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-weight: 200;
-    line-height: 1.5;
-    font-size: small;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.icon-box:hover .caption {
-    opacity: 1;
 }
 
 /* ------------------------------------------------------------------- 
