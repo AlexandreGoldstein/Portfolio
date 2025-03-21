@@ -3276,8 +3276,9 @@ td:last-child {
 
 .icon-wall {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
 }
 
 .icon-box {
@@ -3288,7 +3289,7 @@ td:last-child {
 .icon-box img {
     margin: 0 auto;
     width: 100%;
-    /*height: max(120px, 100%); HERE */
+    height: max(120px, 100%);
     display: block;
 }
 
@@ -3310,7 +3311,7 @@ td:last-child {
 }
 
 .flex-items {
-    flex-basis           : calc(25% - 20px);
+    flex-basis           : calc(25%-  1px);
     margin-bottom        : 20px;
     --gap                : calc(var(--gutter) * 4);
     --min-width          : 300px;
@@ -3324,11 +3325,12 @@ td:last-child {
     flex-wrap: wrap;
     justify-content: space-evenly;
     border: 1px solid #000; /* Your border settings */
-    padding: 10px; /* Your padding settings */
-    margin-bottom: 20px; /* Your margin settings HERE */
-    border-radius: 15px; /* Add border-radius */
+    padding: 10px;
+    margin-bottom: 20px; 
+    border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-    width: 49%; /* Add width property */
+    flex-grow: 1/2;
+    flex-basis: 500px;
     box-sizing: border-box;
 }
 
@@ -3337,16 +3339,16 @@ td:last-child {
     flex-wrap: wrap;
     justify-content: space-between; /* Adjust this to manage the wrapper placements in a row */
     background-color: #557fd3;
-    border-radius: 15px; /* Add border-radius */
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3); 
 }
 
 .flex-group-title {
     font-family: var(--font-1);
     width: 100%;
-    font-size  : calc(var(--text-size) * 0.8);
+    text-align: center;
+    font-weight: bolder;
+    font-size: calc(var(--text-size)* 1.2);
     line-height: 1.75;
-    color      : var(--color-gray-15);
+    color: var(--color-gray-15);
 }
 
 .flex-items__item {
