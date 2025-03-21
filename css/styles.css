@@ -3270,6 +3270,8 @@ td:last-child {
  * ## flex List
  * ------------------------------------------------------------------- */
 .flex-items {
+    flex-basis           : calc(25% - 20px);
+    margin-bottom        : 20px;
     --gap                : calc(var(--gutter) * 4);
     --min-width          : 300px;
     display              : flex;
@@ -3277,9 +3279,28 @@ td:last-child {
     column-gap           : var(--gap);
 }
 
+.flex-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #000; /* Your border settings */
+    padding: 10px; /* Your padding settings */
+    margin-bottom: 20px; /* Your margin settings HERE */
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #557fd3;
+}
+
+.flex-group-title {
+    width: 100%;
+}
+
 .flex-items__item {
-    width: calc(100% / 2);
-    margin-bottom: var(--vspace-1);
+    flex-basis: calc(25% - 20px); /* Adjust for desired spacing */
+    margin-bottom: 20px;
 }
 
 
@@ -4605,20 +4626,19 @@ td:last-child {
 
 .icon-wall {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    column-gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .icon-box {
-    width: 9%;
+    width: 23%;
     position: relative;
 }
 
 .icon-box img {
     margin: 0 auto;
     width: 100%;
-    height: max(120px, 100%);
+    /*height: max(120px, 100%); HERE */
     display: block;
 }
 
