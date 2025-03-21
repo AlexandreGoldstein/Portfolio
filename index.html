@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js" >
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PortFolio AGO</title>
@@ -13,14 +10,9 @@
         document.documentElement.classList.add('js');
     </script>
 
-    <!-- CSS
-    ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-    <!-- favicons
-    ================================================== -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/avatars/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/avatars/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
@@ -29,8 +21,6 @@
 
 
 <body id="top">
-    <!-- preloader
-    ================================================== -->
     <div id="preloader">
         <div id="loader" class="dots-fade">
             <div></div>
@@ -39,12 +29,8 @@
         </div>
     </div>
 
-
-    <!-- page wrap
-    ================================================== -->
     <div id="page" class="s-pagewrap">
-        <!-- # site header 
-        ================================================== -->
+
         <header class="s-header">
             <div class="row s-header__inner">
                 <div class="s-header__block">
@@ -60,6 +46,7 @@
                         <li class="current"><a class="smoothscroll hover-underline" href="#intro">Intro</a></li>
                         <li><a class="smoothscroll hover-underline" href="#about">A propos</a></li>
                         <li><a class="smoothscroll hover-underline" href="#works">Projets</a></li>
+                        <li><a class="smoothscroll hover-underline" href="#technos">Techno</a></li>
                         <li><a class="smoothscroll hover-underline" href="#footer">Contact</a></li>
                     </ul>  
                 </nav>
@@ -137,8 +124,6 @@
             </div>
         </section>
 
-
-        <!-- # about ================================================== -->
         <section id="about" class="s-about target-section">
             <div class="row s-about__content">
                 <div class="column xl-12">    
@@ -157,8 +142,7 @@
                     </p>
 
                     <div class="flex-items s-about__blocks">
-
-                        <div class="flex-items__item s-about__block" style="order:1">
+                        <div class="flex-items__item s-about__block">
                             <h4 class="s-about__block-title">Entreprises</h4>
                             <ul class="s-about__list">
                                 <li>
@@ -186,7 +170,9 @@
                                     <span>Développeur en alternance (2 ans)</span>
                                 </li>
                             </ul>
-
+                        </div>
+                        <div class="s-about__list">
+                            <img src="images/avatars/DevCard.png" style="display:ruby; order:2">
                         </div>
                         <div class="flex-items__item s-about__block" style="order:3">
                             <h4 class="s-about__block-title">Skills</h4>
@@ -213,18 +199,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="s-about__list">
-                            <img src="images/avatars/DevCard.png" style="display:ruby; order:2">
-                        </div>
-                    </div>
-
-                    
+                    </div>                    
                 </div>
             </div> 
         </section>
 
-        <!-- # works
-        ================================================== -->
         <section id="works" class="s-works target-section">
             <div class="row">
                 <div class="column xl-12">
@@ -286,7 +265,17 @@
                     </a>
                 </div>
             </div>
-            <div class="flex-items s-about__blocks">
+
+        </section> 
+            <section id="technos" class="s-about target-section">
+                <div class="row">
+                    <div class="column xl-12">
+                        <div class="section-header" data-num="03">
+                            <h2 class="text-display-title">Projets et Contributions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-items s-about__blocks">
               <!-- <h4 class="s-about__block-title">Domaines Expertises Tech</h4>
                 <div class="icon-wall">
 
@@ -384,8 +373,9 @@
                         <div class="caption">Wireshark - 2 ans</div>
                     </div>
                 </div>--> 
-            </div>
-        </section> 
+                </div>
+            </section>
+
 
 
         <!-- # numbers
@@ -441,13 +431,11 @@
         </section>
 
 
-        <!-- # footer 
-        ================================================== -->
         <footer id="footer" class="s-footer target-section">
 
             <div class="row">
                 <div class="column lg-12">
-                    <div class="section-header light-on-dark" data-num="03">
+                    <div class="section-header light-on-dark" data-num="04">
                         <h2 class="text-display-title">Contact</h2>
                     </div>
                 </div>
@@ -485,11 +473,9 @@
                             </div>
                         </div>
                     </a>
-                    <!--<img src="images/avatars/DevCard.png" class="toto">-->
                 </div>
             </div> 
 
- 
             <div class="row s-footer__bottom">
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
@@ -506,9 +492,7 @@
             </div>  
         </footer>
     </div>
-
-    <!-- Java Script
-    ================================================== -->
+    
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
