@@ -3996,7 +3996,16 @@ td:last-child {
     width          : var(--vspace-1_75);
     border-radius  : 50%;
     border         : 2px solid white;
-    background-color: #4d4d4d;
+    background: linear-gradient(to right, #434343, #b7b3bb, #a210e1, #557fd3);
+    background-size: 300% 100%; /* Adjust size as needed */
+    transition: background-position 500ms ease
+}
+
+.s-intro__scroll-down .scroll-icon:hover {
+    background-position: 100% 0; /* Move background on hover */
+    animation-name: flow;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
 }
 
 .s-intro__scroll-down svg {
@@ -4740,7 +4749,15 @@ td:last-child {
     border         : 2px solid white;
     margin-right   : var(--vspace-0_75);
     position       : relative;
-    background-color: #4d4d4d;
+    background: linear-gradient(to right, #434343, #b7b3bb, #a210e1, #557fd3);
+    background-size: 300% 100%; /* Adjust size as needed */
+}
+
+.ss-go-top a:hover {
+    background-position: 100% 0; /* Move background on hover */
+    animation-name: flow;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
 }
 
 .ss-go-top svg {
