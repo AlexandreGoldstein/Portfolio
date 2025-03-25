@@ -3276,24 +3276,26 @@ td:last-child {
 
 .icon-wall {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* here */
     justify-content: space-between;
     gap: 30px;
 }
 
 .icon-box {
-    width: 23%;
+    height: 130px;
     position: relative;
+    margin: 5px 0px 30px 0px;
 }
 
 .icon-box img {
     margin: 0 auto;
-    width: 100%;
-    height: max(120px, 100%);
+    width: 140px;
+    height: min(120px, 100%);
     display: block;
 }
 
 .caption {
+    margin-top: 5px;
     position: relative;
     bottom: 0;
     left: 0;
@@ -3301,8 +3303,9 @@ td:last-child {
     text-align: center;
     font-weight: 200;
     line-height: 1.5;
-    font-size: small;
+    font-size: medium;
     opacity: 0;
+    color: #3e3c3c;
     transition: opacity 0.5s;
 }
 
@@ -3311,26 +3314,25 @@ td:last-child {
 }
 
 .flex-items {
-    flex-basis           : 18%;
+    flex-basis           : calc(25% - 1px);
     margin-bottom        : 20px;
     --gap                : calc(var(--gutter) * 4);
-    /*--min-width          : 300px;
+    --min-width          : 300px;
     display              : flex;
     -moz-column-gap      : var(--gap);
-    column-gap           : var(--gap);*/
+    column-gap           : var(--gap);
 }
 
 .flex-group {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid #000; /* Your border settings */
     padding: 10px;
     margin-bottom: 20px; 
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-    flex-grow: 1/2;
-    flex-basis: 500px;
+    flex-basis: 48%;
     box-sizing: border-box;
 }
 
@@ -3338,7 +3340,6 @@ td:last-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #557fd3;
 }
 
 .flex-group-title {
@@ -3349,6 +3350,7 @@ td:last-child {
     font-size: calc(var(--text-size)* 1.2);
     line-height: 1.75;
     color: var(--color-gray-15);
+    border-bottom: 3px solid #7a337a;
 }
 
 .flex-items__item {
@@ -4274,6 +4276,8 @@ td:last-child {
  * ## about blocks
  * -------------------------------------------------------------------- */
 .s-about__blocks {
+    display: flex;
+    gap: 15%;
     margin-top: var(--vspace-3);
 }
 
