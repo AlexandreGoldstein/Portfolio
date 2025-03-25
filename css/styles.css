@@ -3594,7 +3594,9 @@ td:last-child {
 }
 
 .s-header__menu-links .current a {
-    color: white;
+    background: -webkit-linear-gradient(45deg, white, #a210e1);
+    color: transparent;
+    background-clip: text;
 }
 
 /* --------------------------------------------------------------------
