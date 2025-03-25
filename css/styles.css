@@ -598,7 +598,7 @@ table {
 }
 
 .xl-6 {
-    flex : none;
+    flex : auto;
     width: 50%;
 }
 
@@ -3284,7 +3284,7 @@ td:last-child {
 .icon-box {
     height: 130px;
     position: relative;
-    margin: 5px 0px 30px 0px;
+    margin: 50px 0px 30px 0px;
 }
 
 .icon-box img {
