@@ -500,6 +500,10 @@ table {
     margin   : 0 auto;
 }
 
+.row2 {
+    width:92% !important;
+}
+
 .works .row {
     width    : min(75%, var(--width-grid-max));
 }
@@ -3306,7 +3310,6 @@ td:last-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 30px;
 }
 
 .icon-box {
@@ -3354,7 +3357,7 @@ td:last-child {
     justify-content: center;
     border: 1px solid #000; /* Your border settings */
     padding: 10px;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
     flex-basis: 48%;
@@ -3364,7 +3367,7 @@ td:last-child {
 
 .icon-wrapper {
     display: flex;
-    justify-content: space-around;
+    column-gap: 25px;
 }
 
 .flex-group-title {
