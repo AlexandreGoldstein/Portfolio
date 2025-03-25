@@ -3970,7 +3970,7 @@ td:last-child {
     --line-length: 8rem;
     z-index      : 2;
     position     : absolute;
-    bottom       : var(--vspace-2);
+    bottom       : var(--vspace-3);
     right        : calc(var(--gutter) + var(--vspace-0_75));
 }
 
@@ -3985,7 +3985,7 @@ td:last-child {
     font-family: var(--font-1);
     font-size  : var(--text-size);
     font-weight: 300;
-    line-height: var(--vspace-2);
+    line-height: var(--vspace-3);
 }
 
 .s-intro__scroll-down .scroll-icon {
