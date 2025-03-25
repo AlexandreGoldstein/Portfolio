@@ -4498,7 +4498,7 @@ td:last-child {
 .s-numbers {
     padding-top     : var(--vspace-5_5);
     padding-bottom  : var(--vspace-4);
-    background-color: var(--color-gray-10);
+    background-color: white;
     color           : var(--color-text-light);
 }
 
