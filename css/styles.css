@@ -3289,13 +3289,15 @@ td:last-child {
 
 .icon-box img {
     margin: 0 auto;
-    width: 140px;
-    height: min(120px, 100%);
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
     display: block;
 }
 
 .caption {
-    margin-top: 5px;
+    margin-top: 12px;
+    font-family: cursive;
     position: relative;
     bottom: 0;
     left: 0;
@@ -3338,15 +3340,15 @@ td:last-child {
 }
 
 .flex-group-title {
-    font-family: var(--font-1);
+    font-family: fantasy;
     height: min-content;
     width: 100%;
     text-align: center;
-    font-weight: bolder;
-    font-size: calc(var(--text-size)* 1.2);
+    font-size: calc(var(--text-size)* 1.55);
     line-height: 1.75;
     color: var(--color-gray-15);
-    border-bottom: 3px solid #7a337a;
+    border-bottom: 2px solid #414143;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .flex-items__item {
