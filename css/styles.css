@@ -4434,6 +4434,11 @@ td:last-child {
     padding   : 0;
     overflow  : hidden;
     position  : relative;
+    cursor: pointer;
+}
+
+.entry:hover {
+    cursor: pointer ;
 }
 
 .folio-entries .entry__link {
