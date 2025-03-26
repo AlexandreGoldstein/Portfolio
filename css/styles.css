@@ -4598,6 +4598,7 @@ td:last-child {
     --bottom-padding: var(--vspace-2_5);
     background-color: var(--color-3);
     margin-top      : auto;
+    min-height: 100vh;
     padding-top     : var(--vspace-6);
     padding-bottom  : var(--bottom-padding);
     color           : var(--color-gray-15);

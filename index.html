@@ -6,16 +6,6 @@
     <title>PortFolio AGO</title>
 
     <script>
-        $(document).ready(function(){
-            $('#page').scroll(function(){
-                var div = $(this);
-                if (div[0].scrollHeight - div.scrollTop() == div.height())
-                {
-                    document.querySelector('.s-header__nav a[href*=footer]').parentNode.classList.add('current');
-                }
-                $('#output').text("scroll Position: " + div.height());
-            });
-        });
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
     </script>
