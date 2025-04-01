@@ -3584,7 +3584,8 @@ td:last-child {
 .flag {
     position:absolute;
     top     :100px;
-    right   :50px;
+    right   :100px;
+    z-index: 99;
 }
 
 .s-header__menu-links li {
