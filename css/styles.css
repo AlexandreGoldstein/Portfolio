@@ -3581,8 +3581,10 @@ td:last-child {
     padding   : 0;
 }
 
-.pr-100 {
-    padding-right: 100px;
+.flag {
+    position:absolute;
+    top     :100px;
+    right   :50px;
 }
 
 .s-header__menu-links li {
