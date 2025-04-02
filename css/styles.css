@@ -2138,10 +2138,11 @@ input[type=button]:hover {
 }
 
 .row_pen {
-    display:flex;
-    position: relative;
-    right: 8%;
+    display  : flex;
+    position : relative;
+    right    : 3%;
 }
+
 .button--pen {
     --main_color : #4d4d4d ;
     --sub_color1 : #FFF ;
